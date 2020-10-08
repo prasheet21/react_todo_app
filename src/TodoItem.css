@@ -1,0 +1,50 @@
+.todoTasks > .task{
+    padding : 20px ;
+    width: 100% ;
+    background-color : orangered ;
+    color : white ;
+    margin-top: 30px ;
+    font-weight: bold;
+    display: flex ;
+    
+}
+
+.logo > i {
+    cursor: pointer;
+}
+.logo {
+    width : 100px ;
+    display : flex ; 
+    margin-left: auto;
+}
+
+.update{
+    display: flex;
+    height : 27px ;
+    font-size : 19px ;
+    border-radius: 7px ;
+    width: 100% ;
+}
+
+.update * {
+    border-radius: 5px ;
+}
+
+.update input[type='text']{
+    width : 90% ;
+    /* flex: ; */
+}
+
+.update > input[type='submit'] {
+    font-weight: bold;
+    color : white ;
+    background-color : green ;
+    cursor: pointer;
+    outline : none ;
+    width:80px ;
+}
+
+.update input[type='submit']:hover{
+    box-shadow: 2px 2px 10px 1px grey ;
+    transition : .4s ;
+}

@@ -1,0 +1,41 @@
+.main-container{
+  min-height: 100vh;
+  background: url('./images/todo_back.jpg') center center fixed no-repeat ;
+  background-size: cover;
+  padding-top : 30px ;
+  /* background-color : whitesmoke ; */
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.main-container *{
+  margin:0 auto ;
+  width:70% ;
+  /* background-color: black; */
+}
+
+.addNew > input[type='text'] {
+  width: 70% ;
+  height : 40px ;
+  font-size : 18px ;
+}
+
+.addNew > input { 
+  border-radius: 8px;
+  outline : none ;
+  border:2px solid black ;
+}
+
+.addNew > input[type='submit'] {
+  height : 40px ;
+  width : 100px ;
+  font-weight : bolder ;
+  margin-left: 4px;
+  cursor: pointer;
+  font-size: large;
+  background-color: green;
+}
+
+.addNew { 
+  width : 80%  ;
+}

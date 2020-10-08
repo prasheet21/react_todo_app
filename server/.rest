@@ -1,0 +1,11 @@
+GET http://localhost:8080/addTask?newTask=Task4
+
+#####
+
+GET http://localhost:8080/getAllTask
+
+########
+GET http://localhost:8080/deleteTask?id=3bbc1406-f374-4cc0-b291-a814f6771cbb
+
+#######
+GET http://localhost:8080/clearList
