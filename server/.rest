@@ -1,11 +1,14 @@
-GET http://localhost:8080/addTask?newTask=Task4
+GET http://localhost:8080/addTask?newTask=Task2
 
 #####
 
 GET http://localhost:8080/getAllTask
 
 ########
-GET http://localhost:8080/deleteTask?id=3bbc1406-f374-4cc0-b291-a814f6771cbb
+GET http://localhost:8080/deleteTask?id=5f855d9b80cf6140b8b73ed3
 
 #######
 GET http://localhost:8080/clearList
+
+######
+GET http://localhost:8080/editTask?id=fcd1d167-146b-4929-ac08-0692b156f0e5&newTask=This is changed task

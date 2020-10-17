@@ -39,3 +39,21 @@
 .addNew { 
   width : 80%  ;
 }
+
+.clear_all{
+  display: block;
+  width:750px ;
+  padding : 8px 0 ;
+  color : white ;
+  margin-top : 20px ;
+  background-color : darkblue ;
+  outline : none ;
+  font-size : 18px ;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.clear_all:active {
+  background-color: blue;
+  transition : .2s ;
+}
